@@ -1,4 +1,9 @@
 #!/usr/bin/env perl
+#
+# Mojolicious::Lite で WebSocket を使ったチャットを作る(現時点：2012年3月10日で動くコード) - 僕の車輪の再発明
+# http://kazuph.hateblo.jp/entry/20120310/1331396492
+# よりIPアドレスを指定できるように改変
+#
 use utf8;
 use Mojolicious::Lite;
 use DateTime;
