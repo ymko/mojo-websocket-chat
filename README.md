@@ -1,7 +1,5 @@
-mojo-websocket-chat
+Mojolicious::Lite + WebSocket でチャット
 ===================
-
-# Mojolicious::Lite + WebSocket でチャット
 
 ## 使い方
 1. git clone https://github.com/ymko/mojo-websocket-chat.git
@@ -9,7 +7,7 @@ mojo-websocket-chat
 3. サーバーのIPアドレス変更
 	--- app.pl ---
 	- my $addr = "192.168.1.10:8080";
-	+ my $addr = "<addr>:<port>";
+	+ my $addr = "サーバーIP:サーバーport";
 4. carton exec -- morbo -l http://*:8080 app.pl
 
 enjoy!
